@@ -1,0 +1,97 @@
+@font-face {
+  font-family: VAZIR;
+  src: url(Vazir-Light.ttf);
+}
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+body {
+  /* padding-top: 56px; */
+  font-family: VAZIR;
+}
+
+@media (max-width: 1000px) {
+  .offcanvas-collapse {
+    position: fixed;
+    top:0; /* Height of navbar */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: right;
+    padding-right: 1rem;
+    padding-left: 1rem;
+]    overflow-y: auto;
+    visibility: hidden;
+    background-color: #26ff72;
+    transition: transform .3s ease-out, visibility .3s ease-out;
+        transform: translateX(-100%);
+  }
+  .offcanvas-collapse.open {
+    visibility: visible;
+    transform: translateX(-50%);
+  }
+}
+
+
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  color: rgba(255, 255, 255, .75);
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-underline .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+  color: #000000;
+}
+
+.nav-underline .nav-link:hover {
+  color: #67809b;
+}
+
+.nav-underline .active {
+  font-weight: 500;
+  color: #000000;
+}
+
+.text-white-50 { color: rgba(255, 255, 255, .5); }
+
+.bg-purple { background-color: #6f42c1; }
+
+.hover-a:hover{
+  color: rgb(0, 98, 255) !important;
+}
+
+
+
+.button {
+
+  position: relative;
+  transition: 0.3s;
+}
+
+.button:after {
+  position: absolute;
+  transition: 0.3s;
+  content: "";
+  width: 0;
+  left: 50%;
+  bottom: 0;
+  height: 2px;
+  background: #ff0000;
+}
+
+.button:hover:after {
+  width: 100%;
+  left: 0;
+}

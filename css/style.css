@@ -1,5 +1,5 @@
 @font-face {
-  font-family: VAZIR;
+  font-family:VAZIR;
   src: url(font/Vazir-Bold.ttf);
 }
 html,
@@ -102,6 +102,11 @@ li a:hover {
 
 .font-size-h1 {
   font-size: 4rem;
+}
+
+.item-abutme {
+  box-shadow: #e0dada7a 0px 20px 20px 20px;
+
 }
 
 

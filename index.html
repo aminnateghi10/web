@@ -18,12 +18,13 @@
     <meta name="theme-color" content="#7952b3">
 
     <!-- Custom styles for this template -->
-    <link href="style.css" rel="stylesheet">
-    <link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="icon/bootstrap-icons/bootstrap-icons.css">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
+    <!-- -----------------------------------------------------------navbar -->
     <nav class="navbar navbar-expand-lg fixed-top justify-content-end border-bottom border-dark border-1 position-fixed bg-light"
         aria-label="Main navigation">
         <div class="container-fluid d-flex justify-content-lg-center flex-grow-0">
@@ -59,20 +60,21 @@
         </div>
     </nav>
 
-    <div style="background: url(hom.jpg);background-position: center;">
+    <!-- ---------------------------------------------------------home -->
+    <div style="background: url(img/hom.jpg);background-position: center;">
         <div class="d-flex align-items-center" style="height: 900px;background-color: rgba(255, 255, 255, 0.705);">
             <div class="container">
                 <div class="row ">
-                    <div class="col-6 text-center">
-                        <img src="hom.jpg" width="400px" height="400px" style="border-radius: 200px;
+                    <div class="col-12 col-lg-6 text-center">
+                        <img src="img/hom.jpg" width="400" " height=" 400px" style="border-radius: 200px;
                             outline: solid #3e3a3a2e 24px;
                             border: solid 21px #78707091;" alt="">
                     </div>
-                    <div class="col-6 text-end">
-                        <h1>امین ناطقی</h1>
+                    <div class="col-12 col-lg-6 text-center text-lg-end ">
+                        <h1 class="font-size-h1 mt-5">امین ناطقی</h1>
                         <h2>توسعه دهنده وب</h2>
                         <ul class="list-unstyled">
-                            <li class="my-2 emile"><a class="text-decoration-none text-dark"
+                            <li class="my-2 emile "><a class="text-decoration-none text-dark"
                                     href="">aminnateghi10@gmail.com</a>
                                 <i class="bi bi-envelope-fill ms-2"></i>
                             </li>
@@ -84,18 +86,41 @@
                                 <i class="bi bi-geo-alt-fill ms-2"></i>
                             </li>
                         </ul>
+                        <ul class="list-unstyled d-flex justify-content-center justify-content-lg-end text-center">
+                            <li class="mx-2"><a><i class="bi bi-telegram"></i> </a></li>
+                            <li class="mx-2"><a><i class="bi bi-github"></i> </a></li>
+                            <li class="mx-2"><a><i class="bi bi-whatsapp"></i> </a></li>
+                            <li class="mx-2"><a><i class="bi bi-instagram"></i> </a></li>
+                            <li class="mx-2"><a><i class="bi bi-linkedin"></i> </a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+    <!-- -----------------------------------------------About Me -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="d-flex justify-content-center mt-5">
+                <div class="col-4 text-end ">
+                    <h3>درباره من</h3>
+                    <p>سلام خوش اومدید،من توحید ناطقی هستم زاده شهر سراب واقع در آذربایجان شرقی، محل کار فعلی ام تبریز
+                        هست عاشق برنامه نویسی تحت وب با فریم ورک لاراول هستم و علاقه زیادی به یادگیری چیزهای جدید در
+                        مورد برنامه نویسی و پیشرفت در کارم دارم. دوست دارم همیشه چالش های جدیدی رو تجربه کنم</p>
+                </div>
+                <div class="d-flex col-4">
+                    <img src="img/hom.jpg" width="500px" alt="">
+                </div>
+            </div>
+            <div></div>
+        </div>
+    </div>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
-    <script src="scripts.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>

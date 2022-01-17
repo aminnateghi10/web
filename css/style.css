@@ -1,6 +1,6 @@
 @font-face {
   font-family: VAZIR;
-  src: url(Vazir-Light.ttf);
+  src: url(font/Vazir-Bold.ttf);
 }
 html,
 body {
@@ -42,7 +42,7 @@ body {
   padding-bottom: 1rem;
   margin-top: -1px;
   overflow-x: auto;
-  color: rgba(255, 255, 255, .75);
+  color: rgba(255, 255, 255, 0.822);
   text-align: center;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
@@ -94,6 +94,14 @@ body {
 .button:hover:after {
   width: 100%;
   left: 0;
+}
+
+li a:hover {
+  color: rgb(0, 89, 255) !important;
+}
+
+.font-size-h1 {
+  font-size: 4rem;
 }
 
 

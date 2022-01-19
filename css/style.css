@@ -113,4 +113,7 @@ li a:hover {
   .item-abutme {
     max-width: 500px;
   }
+  .profil {
+    outline: 0px solid rgb(0, 110, 255) !important;
+  }
 }

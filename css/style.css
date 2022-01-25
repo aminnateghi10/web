@@ -196,7 +196,6 @@ div[role="progressbar"]::before {
   animation: animesin 1s forwards;
 }
 
-
-.owl-prev {
-  
+.wrapper {
+  margin: 60px auto;
 }

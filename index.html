@@ -8,7 +8,7 @@
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.84.0">
     <title>امین ناطقی</title>
-
+    <link rel="shortcut icon" href="img/A-Letter-PNG-Images.png">
     <meta name="theme-color" content="#7952b3">
 
     <!-- Custom styles for this template -->
@@ -38,7 +38,7 @@
                         <a class="hover-a  nav-link text-dark me-3 button " aria-current="page" href="#">خانه</a>
                     </li>
                     <li class="nav-item">
-                        <a class="hover-a  nav-link text-dark me-3 button " href="#">درباره من</a>
+                        <a class="hover-a  nav-link text-dark me-3 button " href="#about-me">درباره من</a>
                     </li>
                     <li class="nav-item">
                         <a class="hover-a  nav-link text-dark me-3 button " href="#">مهارت ها</a>
@@ -95,6 +95,9 @@
         </div>
     </div>
     <!-- -----------------------------------------------About Me -->
+    <div id="about-me">
+
+    </div>
     <div class="container mt-5">
         <div class="d-flex justify-content-center my-5 flex-column-reverse flex-md-row">
             <div class="col-12 col-md-5 text-end me-2 mt-4">
@@ -340,71 +343,69 @@
             </div>
         </div>
         <!-- -------------------------------------------------------------------------Contact Me -->
-        <form class="row g-3 needs-validation" novalidate>
-            <div class="col-md-4">
-                <label for="validationCustom01" class="form-label">First name</label>
-                <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
-                <div class="valid-feedback">
-                    Looks good!
+        <footer class="container">
+            <div class="row d-flex justify-content-center" style="direction: rtl;">
+                <div class="col-12 text-center my-5">
+                    <h4 class="fs-2">تماس با من</h4>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <label for="validationCustom02" class="form-label">Last name</label>
-                <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
-                <div class="valid-feedback">
-                    Looks good!
+                <div class="col-12 col-lg-6" style="background: url(img/map-color-overlay.png);">
+                    <div class="mx-5" style="box-shadow: 0px 1px 8px 2px rgb(213 202 202)">
+                        <div class="p-4 d-flex">
+                            <i class="bi bi-geo-alt"
+                                style="border: 1px solid blue;border-radius: 50%;    padding: 34px!important;"></i>
+                            <div class="me-5">
+                                <h3>آدرس</h3>
+                                <a class="text-decoration-none" href="">آذربیجان شرقی - تبریز</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mx-5 my-3" style="box-shadow: 0px 1px 8px 2px rgb(213 202 202)">
+                        <div class="p-4 d-flex">
+                            <i class="bi bi-geo-alt"
+                                style="border: 1px solid blue;border-radius: 50%;    padding: 34px!important;"></i>
+                            <div class="me-5">
+                                <h3>ایمیل</h3>
+                                <a class="text-decoration-none" href="">aminnateghi10@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mx-5 my-3" style="box-shadow: 0px 1px 8px 2px rgb(213 202 202)">
+                        <div class="p-4 d-flex">
+                            <i class="bi bi-geo-alt"
+                                style="border: 1px solid blue;border-radius: 50%;    padding: 34px!important;"></i>
+                            <div class="me-5">
+                                <h3>شماره همراه</h3>
+                                <a class="text-decoration-none" href="">09389857755</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <label for="validationCustomUsername" class="form-label">Username</label>
-                <div class="input-group has-validation">
-                    <span class="input-group-text" id="inputGroupPrepend">@</span>
-                    <input type="text" class="form-control" id="validationCustomUsername"
-                        aria-describedby="inputGroupPrepend" required>
-                    <div class="invalid-feedback">
-                        Please choose a username.
-                    </div>container mt-5
+                <div class="col-12 col-lg-6">
+                    <form action="" class="row">
+                        <input type="text" name="name" class="form-control my-1" placeholder="نام">
+                        <input type="email" name="emile" class="form-control my-1" placeholder="ایمیل" required>
+                        <input type="text" name="subject" class="form-control my-1" placeholder="موضوع" required>
+                        <textarea class="contact-message my-1 col-12" name="message" rows="6" placeholder="متن پیام"
+                            required=""></textarea>
+                        <button class="btn btn-primary my-5" type="submit">ارسال پیام</button>
+                    </form>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <label for="validationCustom03" class="form-label">City</label>
-                <input type="text" class="form-control" id="validationCustom03" required>
-                <div class="invalid-feedback">
-                    Please provide a valid city.
-                </div>
-            </div>
-            <div class="col-md-3">
-                <label for="validationCustom04" class="form-label">State</label>
-                <select class="form-select" id="validationCustom04" required>
-                    <option selected disabled value="">Choose...</option>
-                    <option>...</option>
-                </select>
-                <div class="invalid-feedback">
-                    Please select a valid state.
-                </div>
-            </div>
-            <div class="col-md-3">
-                <label for="validationCustom05" class="form-label">Zip</label>
-                <input type="text" class="form-control" id="validationCustom05" required>
-                <div class="invalid-feedback">
-                    Please provide a valid zip.
-                </div>
-            </div>
-            <div class="col-12">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                    <label class="form-check-label" for="invalidCheck">
-                        Agree to terms and conditions
-                    </label>
-                    <div class="invalid-feedback">
-                        You must agree before submitting.
+                <div class="col-12 row my-5">
+                    <div class="col-12 col-lg-6">
+                        <p>انتشار مطلالب این وبسایت با ذکر منبع بلامانع است</p>
+                    </div>
+                    <div class="col-12 col-lg-6 text-lg-start">
+                        <ul class="list-unstyled d-flex justify-content-center justify-content-lg-end text-center">
+                            <li class="mx-2"><a><i class="bi bi-telegram"></i> </a></li>
+                            <li class="mx-2"><a><i class="bi bi-github"></i> </a></li>
+                            <li class="mx-2"><a><i class="bi bi-whatsapp"></i> </a></li>
+                            <li class="mx-2"><a><i class="bi bi-instagram"></i> </a></li>
+                            <li class="mx-2"><a><i class="bi bi-linkedin"></i> </a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <div class="col-12">
-                <button class="btn btn-primary" type="submit">Submit form</button>
-            </div>
-        </form>
+        </footer>
         <!-- Option 1: Bootstrap Bundle with Popper -->
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery-3.4.1.min.js"></script>

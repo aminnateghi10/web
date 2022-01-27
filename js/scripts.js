@@ -1,4 +1,6 @@
 (function () {
+	new WOW().init();
+
 	'use strict'
 	const btnCloseMenu = document.querySelector('#close-menu');
 	const menu = document.querySelector('#navbarsExampleDefault');

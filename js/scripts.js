@@ -15,6 +15,7 @@
 
 	$('.owl-carousel').owlCarousel({
 		loop: true,
+		rtl: true,
 		margin: 10,
 		nav: true,
 		responsive: {

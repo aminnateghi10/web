@@ -32,7 +32,7 @@
 
             <div class="navbar-collapse offcanvas-collapse flex-grow-0" id="navbarsExampleDefault">
                 <button type="button" class="btn-close d-lg-none mt-3" id="close-menu" aria-label="Close"></button>
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-row-reverse d-block d-lg-flex fs-5">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0  d-block d-lg-flex fs-5">
                     <li class="nav-item">
                         <a class="hover-a  nav-link text-dark me-3 button " aria-current="page" href="#">خانه</a>
                     </li>
@@ -61,11 +61,7 @@
         <div class="d-flex align-items-center" style="height: 900px;background-color: #ffffffe0;">
             <div class="container">
                 <div class="row justify-content-center ">
-                    <div class="col-10 col-lg-4 text-center wow animate__animated animate__pulse" style="">
-                        <img src="img/Screenshot_20211119_000932_com.instagram.android.jpg" class="profil" style="width:100%;height: 100%; border-radius: 50%;    border: #0000001c solid 20px;
-                            outline: 20px solid #0000000d;" />
-                    </div>
-                    <div class="col-12 col-lg-6 text-center text-lg-end">
+                    <div class="col-12 col-lg-6">
                         <h1 class="font-size-h1 mt-5 wow animate__animated animate__backInRight">امین ناطقی</h1>
                         <h2 class="wow animate__animated animate__backInRight" data-wow-delay=".1s">توسعه دهنده وب</h2>
                         <ul class="list-unstyled">
@@ -84,7 +80,7 @@
                                 <i class="bi bi-geo-alt-fill ms-2"></i>
                             </li>
                         </ul>
-                        <ul class="list-unstyled d-flex justify-content-center justify-content-lg-end text-center wow animate__animated animate__backInRight"
+                        <ul class="list-unstyled d-flex text-center wow animate__animated animate__backInRight"
                             data-wow-delay=".5s">
                             <li class="mx-2"><a style="color: black;" href="https://t.me/aminnateghi10"><i
                                         class="bi bi-telegram"></i> </a>
@@ -102,6 +98,10 @@
                                         class="bi bi-linkedin"></i> </a></li>
                         </ul>
                     </div>
+                    <div class="col-10 col-lg-4 text-center wow animate__animated animate__pulse" style="">
+                        <img src="img/Screenshot_20211119_000932_com.instagram.android.jpg" class="profil" style="width:100%;height: 100%; border-radius: 50%;    border: #0000001c solid 20px;
+                                outline: 20px solid #0000000d;" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -113,7 +113,10 @@
     <div class="container mt-5">
         <div
             class="d-flex justify-content-center my-5 flex-column-reverse flex-md-row wow animate__animated animate__backInUp">
-            <div class="col-12 col-md-5 text-end me-2 mt-4">
+            <div class="d-flex col-12 col-md-5">
+                <img src="img/ab-img.png" class="w-100" alt="">
+            </div>
+            <div class="col-12 col-md-5 me-2 mt-4">
                 <h3 class="fs-1">درباره من</h3>
                 <p class="fs-6 text-muted">سلام خوش اومدید،من امین ناطقی هستم زاده شهر سراب واقع در آذربایجان شرقی، محل
                     کار
@@ -126,9 +129,6 @@
                         رزومه</a>
                 </button>
             </div>
-            <div class="d-flex col-12 col-md-5">
-                <img src="img/ab-img.png" class="w-100" alt="">
-            </div>
         </div>
         <div class="row d-flex mt-5">
             <div class="d-flex justify-content-center col-12 my-5">
@@ -137,25 +137,24 @@
         </div>
         <div
             class="row d-flex justify-content-center justify-content-md-between wow animate__animated animate__backInUp">
-            <div class="col-10 col-md-5 p-5 mt-4 mt-md-3 text-center text-md-end item-abutme" style="height: 300px;">
-                <i class="bi bi-code-slash d-flex justify-content-center justify-content-md-end fs-2 text-warning"></i>
+            <div class="col-10 col-md-5 p-5 mt-4 mt-md-3 text-center item-abutme" style="height: 300px;">
+                <i class="bi bi-code-slash d-flex justify-content-center fs-2 text-warning"></i>
                 <h3 class="mt-3">کد نویسی تمیز و خوانا</h3>
                 <p class="fs-6 text-muted">برای داشتن پروژه ای با انعطاف پذیری بالا و قابل گسترش حتما باید از اصول
                     برنامه نویسی
                     clean code
                     استفاده کنیم.</p>
             </div>
-            <div class="col-10 col-md-5 p-5 mt-4 mt-md-3 text-center text-md-end item-abutme" style="height: 300px;">
-                <i
-                    class="bi bi-check-circle d-flex justify-content-center justify-content-md-end text-primary fs-2 "></i>
+            <div class="col-10 col-md-5 p-5 mt-4 mt-md-3 text-center item-abutme" style="height: 300px;">
+                <i class="bi bi-check-circle d-flex justify-content-center text-primary fs-2 "></i>
                 <h3 class="mt-3">بهینه سازی کدها</h3>
                 <p class="fs-6 text-muted">بهینه سازی کد به افزایش سرعت برنامه کمک میکند و همچنین باعث میشود منابع کمتری
                     از سیستم
                     مصرف شود که
                     نهایتا بازدهی برنامه را بیشتر می کند.</p>
             </div>
-            <div class="col-10 col-md-5 p-5 mt-4 mt-md-3 text-center text-md-end item-abutme" style="height: 300px;">
-                <i class="bi bi-journal-code d-flex justify-content-center justify-content-md-end fs-2 text-danger"></i>
+            <div class="col-10 col-md-5 p-5 mt-4 mt-md-3 text-center item-abutme" style="height: 300px;">
+                <i class="bi bi-journal-code d-flex justify-content-center fs-2 text-danger"></i>
                 <h3 class="mt-3">طراحی کاربر پسند</h3>
                 <p class="fs-6 text-muted">در دنیایی که تعداد نرم افزارها و وبسایت ها روز به روز در حال افزایش است،
                     داشتن ظاهر زیبا
@@ -177,13 +176,10 @@
                         <div class="container wow animate__animated animate__backInUp">
                             <div class="owl-carousel owl-theme row">
                                 <div class="item col-12 d-flex row flex-lg-row-reverse">
-                                    <div class="col-12 col-lg-7 d-flex justify-content-center"><img src="img/farsh.png"
-                                            class="w-75" alt="">
-                                    </div>
-                                    <div class="col-12 col-lg-5 text-end">
+                                    <div class="col-12 col-lg-5">
                                         <h3 class="mt-5">پروژه وب سایت شخصی</h3>
                                         <p class="mt-3">سایتی برای معرفی خود</p>
-                                        <ul style="direction: rtl;">
+                                        <ul>
                                             <li>طراحی ساده</li>
                                             <li>فروشگاه خرید محصول</li>
                                             <li>کد نویسی تمیز و خوانا</li>
@@ -198,14 +194,15 @@
                                                 style="border-radius: 30%;">js</button>
                                         </div>
                                     </div>
+                                    <div class="col-12 col-lg-7 d-flex justify-content-center"><img src="img/farsh.png"
+                                            class="w-75" alt="">
+                                    </div>
                                 </div>
                                 <div class="item col-12 d-flex row flex-lg-row-reverse">
-                                    <div class="col-12 col-lg-7 d-flex justify-content-center"><img src="img/web.png"
-                                            class="w-75" alt=""></div>
-                                    <div class="col-12 col-lg-5 text-end">
+                                    <div class="col-12 col-lg-5">
                                         <h3 class="mt-5">پروژه وبسایت شخصی</h3>
                                         <p class="mt-3">سایتی برای معرفی خود</p>
-                                        <ul style="direction: rtl;">
+                                        <ul>
                                             <li>طراحی ساده</li>
                                             <li>معرفی کامل اطلاعات شخص</li>
                                             <li>کد نویسی تمیز و خوانا</li>
@@ -220,6 +217,8 @@
                                                 style="border-radius: 30%;">js</button>
                                         </div>
                                     </div>
+                                    <div class="col-12 col-lg-7 d-flex justify-content-center"><img src="img/web.png"
+                                            class="w-75" alt=""></div>
                                 </div>
                             </div>
                         </div>
@@ -236,6 +235,26 @@
         <div class="container mt-5" id="Skills">
             <div class="row">
                 <h3 class="text-center wow animate__animated animate__backInUp">مهارت های من</h3>
+                <div class="col-12 col-md-6 mt-5">
+                    <h3 class="text-center" data-wow-delay=".3s">مهارت های
+                        برنامه نویسی</h3>
+                    <div class="mt-5 wow animate__animated animate__backInUp" data-wow-delay=".4s">
+                        <h4>html</h4>
+                        <div class="div1 w-100"></div>
+                    </div>
+                    <div class="mt-5 wow animate__animated animate__backInUp" data-wow-delay=".5s">
+                        <h4>css</h4>
+                        <div class="div1 w-100"></div>
+                    </div>
+                    <div class="mt-5 wow animate__animated animate__backInUp" data-wow-delay=".6s">
+                        <h4>bootstrap</h4>
+                        <div class="div1 w-100"></div>
+                    </div>
+                    <div class="mt-5 wow animate__animated animate__backInUp" data-wow-delay=".7s">
+                        <h4>git</h4>
+                        <div class="div1 w-100"></div>
+                    </div>
+                </div>
                 <div class="col-12 col-md-6 d-flex mt-5">
                     <ul class="list-unstyled d-flex row" style="    text-align: -webkit-center;">
                         <h3 class="wow animate__animated animate__backInUp" data-wow-delay=".3s">زبان ها</h3>
@@ -262,26 +281,6 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-12 col-md-6 mt-5">
-                    <h3 class="text-center" data-wow-delay=".3s">مهارت های
-                        برنامه نویسی</h3>
-                    <div class="mt-5 wow animate__animated animate__backInUp" data-wow-delay=".4s">
-                        <h4>html</h4>
-                        <div class="div1 w-100"></div>
-                    </div>
-                    <div class="mt-5 wow animate__animated animate__backInUp" data-wow-delay=".5s">
-                        <h4>css</h4>
-                        <div class="div1 w-100"></div>
-                    </div>
-                    <div class="mt-5 wow animate__animated animate__backInUp" data-wow-delay=".6s">
-                        <h4>bootstrap</h4>
-                        <div class="div1 w-100"></div>
-                    </div>
-                    <div class="mt-5 wow animate__animated animate__backInUp" data-wow-delay=".7s">
-                        <h4>git</h4>
-                        <div class="div1 w-100"></div>
-                    </div>
-                </div>
             </div>
             <div id="Records"></div>
         </div>
@@ -294,20 +293,20 @@
                     <div class="my-5 row d-flex justify-content-center align-items-center">
 
                         <div class="col-12 col-lg-5 my-5">
-                            <h4 class="text-end mb-5 wow animate__animated animate__backInUp">سوابق
+                            <h4 class=" mb-5 wow animate__animated animate__backInUp">سوابق
                                 تحصیلی</h4>
                             <div class="bg-light shadow p-5 w-100 wow animate__animated animate__backInUp"
                                 data-wow-delay=".2s">
-                                <p class="text-end">دیپلم کامپیوتر دبیرستان شهید <a class="text-decoration-none"
+                                <p class="">دیپلم کامپیوتر دبیرستان شهید <a class="text-decoration-none"
                                         href="https://www.google.com/search?q=%D8%B4%D9%87%DB%8C%D8%AF%20%D9%82%D8%A7%D8%B6%DB%8C%20%D8%B3%D8%B1%D8%A7%D8%A8&rlz=1C1BNSD_enFR986FR986&oq=%D8%B4%D9%87%DB%8C%D8%AF+%D9%82%D8%A7%D8%B6%DB%8C+%D8%B3%D8%B1%D8%A7%D8%A8&aqs=chrome..69i57j33i160.8260j0j4&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:2&tbm=lcl&sxsrf=APq-WBvWtJmSIgXl5wnnEBwrsKJH8JesqQ:1643274476890&rflfq=1&num=10&rldimm=15105220430892698779&lqi=ChrYtNmH24zYryDZgtin2LbbjCDYs9ix2KfYqJIBBnNjaG9vbKoBGRABKhUiEdi02YfbjNivINmC2KfYttuMKE0&ved=2ahUKEwiPndq7ytH1AhVQUxoKHXrMCcMQvS56BAgJEBg&rlst=f#rlfi=hd:;si:15105220430892698779,l,ChrYtNmH24zYryDZgtin2LbbjCDYs9ix2KfYqJIBBnNjaG9vbKoBGRABKhUiEdi02YfbjNivINmC2KfYttuMKE0;mv:[[37.9431655,47.547451099999996],[37.9323889,47.526837799999996]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:2">قاضی</a>
                                 </p>
                             </div>
                         </div>
                         <div class="col-12 col-lg-5 my-5" id="Work-samples">
-                            <h4 class="text-end mb-5 mt-lg-0 wow animate__animated animate__backInUp">سوابق شغلی</h4>
+                            <h4 class=" mb-5 mt-lg-0 wow animate__animated animate__backInUp">سوابق شغلی</h4>
                             <div class="bg-light shadow p-5 w-100 wow animate__animated animate__backInUp"
                                 data-wow-delay=".2s">
-                                <p class="text-end">
+                                <p class="">
                                     کار آموز در <a class="text-decoration-none" href="https://ideal-it.ir/">شرکت ایده
                                         آل</a> تبریز
                                 </p>
@@ -319,7 +318,7 @@
         </div>
         <!-- -----------------------------------------------------------------Work samples -->
         <div class="container">
-            <div class="row wrapper " style="direction: rtl">
+            <div class="row wrapper ">
 
                 <ul class="nav nav-pills mb-3 justify-content-center wow animate__animated animate__backInUp"
                     id="pills-tab" role="tablist">
@@ -366,7 +365,7 @@
             class="wow animate__animated animate__backInUp">
             <div style="background-color: rgba(255, 255, 255, 0.849);height: 300px;">
                 <div class="container">
-                    <div class="row" style="direction: rtl;">
+                    <div class="row">
                         <div class="col-11 col-lg-6 m-lg-5 mt-5">
                             <h4>کاری دارید؟</h4>
                             <p>در صورتی که میخواهید پروژه ای را به صورت فریلنسری برای شما انجام دهم و قصد مشاهده آنلاین
@@ -383,7 +382,7 @@
         </div>
         <!-- -------------------------------------------------------------------------Contact Me -->
         <footer class="container">
-            <div class="row d-flex justify-content-center" style="direction: rtl;">
+            <div class="row d-flex justify-content-center">
                 <div class="col-12 text-center my-5">
                     <h4 class="fs-2 wow animate__animated animate__backInUp">تماس با من</h4>
                 </div>

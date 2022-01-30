@@ -109,6 +109,7 @@ li a:hover {
 .item-abutme {
   box-shadow: 0px 10px 20px 4px #00000015;
   max-width: 370px;
+  height: 300px;
 }
 
 @media only screen and (max-width: 750px) {
@@ -198,4 +199,19 @@ div[role="progressbar"]::before {
 
 .wrapper {
   margin: 60px auto;
+}
+
+.background {
+  background: url(../img/hom.jpg);
+  background-position: center;
+}
+
+.home-background {
+  height: 900px;background-color: #ffffffe0;
+}
+
+.profil {
+  border-radius: 50%;   
+   border: #0000001c solid 20px;
+  outline: 20px solid #0000000d;"
 }

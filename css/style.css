@@ -239,3 +239,21 @@ div[role="progressbar"]::before {
   font-size: 58px;
   margin-top: 30px;
 }
+
+.owl-prev span{
+  position: absolute;
+  top: 41%;
+  right: 30px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.owl-next span{
+  position: absolute;
+  top: 41%;
+  left: 0px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+}

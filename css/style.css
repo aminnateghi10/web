@@ -1,5 +1,5 @@
 @font-face {
-  font-family:iransans;
+  font-family: iransans;
   src: url(./../font/iransansdn.woff2);
 }
 html,
@@ -17,7 +17,7 @@ body {
 @media (max-width: 1000px) {
   .offcanvas-collapse {
     position: fixed;
-    top:0; /* Height of navbar */
+    top: 0; /* Height of navbar */
     bottom: 0;
     left: 0;
     width: 100%;
@@ -27,16 +27,14 @@ body {
     overflow-y: auto;
     visibility: hidden;
     background-color: #26ff72;
-    transition: transform .3s ease-out, visibility .3s ease-out;
-        transform: translateX(-100%);
+    transition: transform 0.3s ease-out, visibility 0.3s ease-out;
+    transform: translateX(-100%);
   }
   .offcanvas-collapse.open {
     visibility: visible;
     transform: translateX(-40%);
   }
 }
-
-
 
 .nav-scroller .nav {
   display: flex;
@@ -51,9 +49,9 @@ body {
 }
 
 .nav-underline .nav-link {
-  padding-top: .75rem;
-  padding-bottom: .75rem;
-  font-size: .875rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 0.875rem;
   color: #000000;
 }
 
@@ -66,18 +64,19 @@ body {
   color: #000000;
 }
 
-.text-white-50 { color: rgba(255, 255, 255, .5); }
+.text-white-50 {
+  color: rgba(255, 255, 255, 0.5);
+}
 
-.bg-purple { background-color: #6f42c1; }
+.bg-purple {
+  background-color: #6f42c1;
+}
 
-.hover-a:hover{
+.hover-a:hover {
   color: rgb(0, 98, 255) !important;
 }
 
-
-
 .button {
-
   position: relative;
   transition: 0.3s;
 }
@@ -123,19 +122,18 @@ li a:hover {
 
 /* --------------------------------------Skills */
 @keyframes growProgressBar {
-
   0%,
   33% {
-      --pgPercentage: 0;
+    --pgPercentage: 0;
   }
 
   100% {
-      --pgPercentage: var(--value);
+    --pgPercentage: var(--value);
   }
 }
 
 @property --pgPercentage {
-  syntax: '<number>';
+  syntax: "<number>";
   inherits: false;
   initial-value: 0;
 }
@@ -151,9 +149,13 @@ div[role="progressbar"] {
   border-radius: 50%;
   display: grid;
   place-items: center;
-  background:
-      radial-gradient(closest-side, white 80%, transparent 0 99.9%, white 0),
-      conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0);
+  background: radial-gradient(
+      closest-side,
+      white 80%,
+      transparent 0 99.9%,
+      white 0
+    ),
+    conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0);
   font-family: Helvetica, Arial, sans-serif;
   font-size: calc(var(--size) / 5);
   color: var(--fg);
@@ -161,21 +163,18 @@ div[role="progressbar"] {
 
 div[role="progressbar"]::before {
   counter-reset: percentage var(--value);
-  content: counter(percentage) '%';
+  content: counter(percentage) "%";
 }
-
 
 @keyframes animesin {
   from {
-      width: 0px;
+    width: 0px;
   }
 
   to {
-      width: 30%;
+    width: 30%;
   }
-
 }
-
 
 .div1 {
   background: rgb(195, 191, 191);
@@ -207,22 +206,23 @@ div[role="progressbar"]::before {
 }
 
 .home-background {
-  height: 900px;background-color: #ffffffe0;
+  height: 900px;
+  background-color: #ffffffe0;
 }
 
 .profil {
-  border-radius: 50%;   
-   border: #0000001c solid 20px;
-  outline: 20px solid #0000000d;"
+  border-radius: 50%;
+  border: #0000001c solid 20px;
+  outline: 20px solid #0000000d;
 }
 
 .background-white {
   background-color: rgba(255, 255, 255, 0.849);
 }
-.border-radius-30{
+.border-radius-30 {
   border-radius: 6%;
 }
-.border-radius-50{
+.border-radius-50 {
   border: 1px solid blue;
   border-radius: 50%;
 }
@@ -230,8 +230,8 @@ div[role="progressbar"]::before {
 .webkit-center {
   text-align: -webkit-center;
 }
-.box-shadow{
-  box-shadow: 0px 1px 8px 2px rgb(213 202 202)
+.box-shadow {
+  box-shadow: 0px 1px 8px 2px rgb(213 202 202);
 }
 
 .owl-nav {
@@ -240,7 +240,7 @@ div[role="progressbar"]::before {
   margin-top: 30px;
 }
 
-.owl-prev span{
+.owl-prev span {
   position: absolute;
   top: 41%;
   right: 30px;
@@ -249,7 +249,7 @@ div[role="progressbar"]::before {
   padding: 10px;
 }
 
-.owl-next span{
+.owl-next span {
   position: absolute;
   top: 41%;
   left: 0px;

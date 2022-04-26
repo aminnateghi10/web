@@ -176,26 +176,6 @@ div[role="progressbar"]::before {
   }
 }
 
-.div1 {
-  background: rgb(195, 191, 191);
-  width: 500px;
-  height: 10px;
-  border: 1px solid black;
-  position: relative;
-  transform: rotate(360deg);
-  border-radius: 10px;
-}
-
-.div1::after {
-  content: "";
-  position: absolute;
-  background-color: rgb(0, 64, 255);
-  height: 10px;
-  left: 0;
-  border-radius: 10px;
-  animation: animesin 1s forwards;
-}
-
 .wrapper {
   margin: 60px auto;
 }
